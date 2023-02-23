@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sephora Pedidos</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Custom styles for this template -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilos/custom.css">
+  </head>
+
+  <body id="custom">
+    <div class="header-custom">
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="link-logo"><img src="img/logo.png" class="logo"/></a></li>
+            <li><a href="index.html" class="nav-link px-2 link-dark">Pedidos</a></li>
+            <li><a href="clientes.html" class="nav-link px-2 link-dark">Clientes</a></li>
+            <li><a href="facturas.html" class="nav-link px-2 link-dark">Facturas</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Trimestres
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="trimestre1.html">Trimeste 1 - 2021</a></li>
+                <li><a class="dropdown-item" href="trimestre2.html">Trimeste 4 - 2022</a></li>
+              </ul>
+            </li>
+        </header>
+      </div>
+    </div><!--end of header-custom-->
+
+    <div class="container container-custom">     
+      <div class="flexbox">
+          <div class="p-5 mb-4 bg-light rounded-3 hero-img" style="background-image: url('./img/makeup1.jpg');">
+              <div class="container-fluid py-5 hero-index">
+                <h1 class="display-5 fw-bold">Pedidos Sephora</h1>
+                <p class="col-md-8 fs-4">Bienvenido a la página de consultas de compras de Sephora España.</p>
+              </div><!--end of container-fluid-->
+              <div class="hero-trasparent"></div>
+            </div><!--end of p-5 mb-4-->
+
+            <div class="flex-shrink-0 p-3 bg-white nav-bar">
+              <div href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                <span class="fs-5 fw-semibold">Navegación</span>
+              </div>
+
+              <ul class="list-unstyled ps-0">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="index.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Tabla pedidos</a></li>
+                  <li><a href="clientes.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Tabla clientes</a></li>
+                  <li><a href="facturas.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Facturas cliente</a></li>
+                  <li><a href="trimestre1.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Trimestre 1 - 2021</a></li>
+                  <li><a href="trimestre2.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Trimestre 4 - 2022</a></li>
+                </ul>
+                <li class="border-top my-3"></li>
+              </ul><!--end of list-unstyled-->
+            </div><!--end of nav-bar-->
+      </div><!--end of flexbox-->
+
+      <div class="main">
+        <h3>Pedidos cuarto trimestre 2022</h3>
+
+        <table id="tablaPedidos" class="table table-striped">
+          <thead>
+              <tr>
+                <th>Nombre de cliente</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+                <th>Ciudad</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Calle</th>
+                <th>Ciudad</th>
+                <th>Código Postal</th>
+                <th>Provincia</th>
+                <th>Correo</th>
+              </tr>
+          </thead>
+          <tbody id="tbodyPedidos"></tbody>
+      </table>
+  
+      <div id="tablaPedidos"></div>
+
+      <table id="tablaPedidos"></table>
+
+<script>
+  let xmlData = "<pedidos_sephora>...</pedidos_sephora>";
+  fetch('xml/pedidos_sephora.xml')
+    .then(response => response.text())
+    .then(data => {
+      let xmlDoc = new DOMParser().parseFromString(data, "text/xml");
+      let table = "<table><tr><th>Número de pedido</th><th>Fecha de compra</th><th>Fecha de entrega</th><th>Total de factura</th><th>Nombre del cliente</th><th>Productos</th></tr>";
+      let pedidos = xmlDoc.querySelectorAll('pedidos_sephora > year[year="2022"] > trimestre[trimestre="4"] > pedido');
+      
+      for (let i = 0; i < pedidos.length; i++) {
+        let numPedido = pedidos[i].querySelector('num_pedido').textContent;
+        let fechaCompra = pedidos[i].querySelector('fecha_compra').textContent;
+        let fechaEntrega = pedidos[i].querySelector('fecha_entrega').textContent;
+        let totalFactura = pedidos[i].querySelector('total_factura').textContent;
+        let nombreCliente = pedidos[i].querySelector('cliente > nombre').textContent + " " + pedidos[i].querySelector('cliente > apellidos').textContent;
+        
+        let productos = "";
+        let listaProductos = pedidos[i].querySelectorAll('productos > producto');
+        for (let j = 0; j < listaProductos.length; j++) {
+          let nombreProducto = listaProductos[j].querySelector('nombre').textContent;
+          let unidadesProducto = listaProductos[j].querySelector('unidades').textContent;
+          productos += nombreProducto + " (" + unidadesProducto + "), ";
+        }
+        productos = productos.slice(0, -2); // Elimina la última coma y el espacio
+        
+        table += "<tr><td>" + numPedido + "</td><td>" + fechaCompra + "</td><td>" + fechaEntrega + "</td><td>" + totalFactura + "€</td><td>" + nombreCliente + "</td><td>" + productos + "</td></tr>";
+      }
+      table += "</table>";
+
+      document.getElementById("tablaPedidos").innerHTML = table;
+    });
+</script>
+
+      
+      </div><!--end of main-->
+    
+      <footer class="py-3 my-4">
+        <div class="nav justify-content-center border-bottom pb-3 mb-3"></div>
+        <p class="text-center text-muted">&copy; 2023 Sephora España</p>
+      </footer>
+  </div><!--end of container-->
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

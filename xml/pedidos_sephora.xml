@@ -1,0 +1,2807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos_sephora SYSTEM "pedidos.dtd">
+<pedidos_sephora>
+  <year year="2021">
+    <trimestre trimestre="1">
+      <pedido>
+        <num_pedido>001</num_pedido>
+        <fecha_compra>2021-01-02</fecha_compra>
+        <fecha_entrega>2021-01-06</fecha_entrega>
+        <total_factura>125.50</total_factura>
+        <cliente>
+          <nombre>Lucía</nombre>
+          <apellidos>González García</apellidos>
+          <telefono>699112233</telefono>
+          <direccion>
+            <calle>Calle Mayor 3</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>lucia.gonzalez@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Heat</nombre>
+            <referencia>AB1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Fenty Beauty</nombre>
+            <referencia>CD5678</referencia>
+            <precio>35.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>002</num_pedido>
+        <fecha_compra>2021-01-02</fecha_compra>
+        <fecha_entrega>2021-01-06</fecha_entrega>
+        <total_factura>125.50</total_factura>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Gil Fernández</apellidos>
+          <telefono>612345678</telefono>
+          <direccion>
+            <calle>Calle Mayor 4</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>laura.gil@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Huda Beauty Nude Obsessions</nombre>
+            <referencia>HBNO123</referencia>
+            <precio>28.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios Mac Matte Lipstick</nombre>
+            <referencia>ML1234</referencia>
+            <precio>21.50</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>003</num_pedido>
+        <fecha_compra>2021-01-07</fecha_compra>
+        <fecha_entrega>2021-01-11</fecha_entrega>
+        <total_factura>67.30</total_factura>
+        <cliente>
+          <nombre>Pilar</nombre>
+          <apellidos>Fernández García</apellidos>
+          <telefono>666123456</telefono>
+          <direccion>
+            <calle>Calle de Alcalá 123</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>pilar.fernandez@hotmail.com</correo>
+          <fecha_inclusion>2020-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Dolce Gabbana The One</nombre>
+            <referencia>DGONE456</referencia>
+            <precio>67.30</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>004</num_pedido>
+        <fecha_compra>2021-02-18</fecha_compra>
+        <fecha_entrega>2021-02-22</fecha_entrega>
+        <total_factura>187.90</total_factura>
+        <cliente>
+          <nombre>Andrea</nombre>
+          <apellidos>Jiménez López</apellidos>
+          <telefono>685339988</telefono>
+          <direccion>
+            <calle>Calle Sol 7</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>andrea.jimenez@hotmail.com</correo>
+          <fecha_inclusion>2021-01-15</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Soft Glam Anastasia Beverly Hills</nombre>
+            <referencia>EF1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Labial líquido mate Fenty Beauty</nombre>
+            <referencia>GH5678</referencia>
+            <precio>24.99</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador Luminous Silk Giorgio Armani</nombre>
+            <referencia>IJ9012</referencia>
+            <precio>48.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>005</num_pedido>
+        <fecha_compra>2021-02-20</fecha_compra>
+        <fecha_entrega>2021-02-23</fecha_entrega>
+        <total_factura>78.75</total_factura>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Ruiz Martínez</apellidos>
+          <telefono>622334455</telefono>
+          <direccion>
+            <calle>Calle Mayor 5</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08002</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>sofia.ruiz@hotmail.com</correo>
+          <fecha_inclusion>2021-02-19</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume CH Good Girl</nombre>
+            <referencia>EF9012</referencia>
+            <precio>67.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>006</num_pedido>
+        <fecha_compra>2021-02-25</fecha_compra>
+        <fecha_entrega>2021-02-30</fecha_entrega>
+        <total_factura>135.50</total_factura>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Gil Fernández</apellidos>
+          <telefono>612345678</telefono>
+          <direccion>
+            <calle>Calle Mayor 4</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>laura.gil@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Urban Decay</nombre>
+            <referencia>GH3456</referencia>
+            <precio>54.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Colorete NARS</nombre>
+            <referencia>IJ7890</referencia>
+            <precio>35.55</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>007</num_pedido>
+        <fecha_compra>2021-03-14</fecha_compra>
+        <fecha_entrega>2021-03-19</fecha_entrega>
+        <total_factura>157.80</total_factura>
+        <cliente>
+          <nombre>Julia</nombre>
+          <apellidos>Martínez Sánchez</apellidos>
+          <telefono>622334455</telefono>
+          <direccion>
+            <calle>Calle de las Flores 7</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>julia.martinez@hotmail.com</correo>
+          <fecha_inclusion>2021-02-28</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante de noche Origins</nombre>
+            <referencia>EF7890</referencia>
+            <precio>45.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador en polvo Benefit</nombre>
+            <referencia>GH1234</referencia>
+            <precio>26.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Rizador de pestañas Shiseido</nombre>
+            <referencia>IJ5678</referencia>
+            <precio>18.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>008</num_pedido>
+        <fecha_compra>2021-01-02</fecha_compra>
+        <fecha_entrega>2021-01-04</fecha_entrega>
+        <total_factura>95.80</total_factura>
+        <cliente>
+          <nombre>Andrea</nombre>
+          <apellidos>Jiménez López</apellidos>
+          <telefono>685339988</telefono>
+          <direccion>
+            <calle>Calle Sol 7</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>andrea.jimenez@hotmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Chance Eau Tendre</nombre>
+            <referencia>123456</referencia>
+            <precio>72.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante Hydra Zen</nombre>
+            <referencia>789012</referencia>
+            <precio>23.80</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>009</num_pedido>
+        <fecha_compra>2021-01-05</fecha_compra>
+        <fecha_entrega>2021-01-08</fecha_entrega>
+        <total_factura>44.95</total_factura>
+        <cliente>
+          <nombre>Julia</nombre>
+          <apellidos>Martínez Sánchez</apellidos>
+          <telefono>622334455</telefono>
+          <direccion>
+            <calle>Calle de las Flores 7</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>julia.martinez@hotmail.com</correo>
+          <fecha_inclusion>2021-01-02</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Labial líquido Stay All Day</nombre>
+            <referencia>345678</referencia>
+            <precio>19.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Colorete Rockateur</nombre>
+            <referencia>901234</referencia>
+            <precio>25.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>010</num_pedido>
+        <fecha_compra>2021-03-10</fecha_compra>
+        <fecha_entrega>2021-03-15</fecha_entrega>
+        <total_factura>78.40</total_factura>
+        <cliente>
+          <nombre>Lucía</nombre>
+          <apellidos>González García</apellidos>
+          <telefono>699112233</telefono>
+          <direccion>
+            <calle>Calle Mayor 3</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>lucia.gonzalez@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Barra de labios Matte Revolution de Charlotte Tilbury</nombre>
+            <referencia>EF9012</referencia>
+            <precio>28.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex de Too Faced</nombre>
+            <referencia>GH3456</referencia>
+            <precio>26.90</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos primer trimestre 2021 -->
+
+    <trimestre trimestre="2">
+      <pedido>
+        <num_pedido>011</num_pedido>
+        <fecha_compra>2021-05-01</fecha_compra>
+        <fecha_entrega>2021-05-06</fecha_entrega>
+        <total_factura>76.90</total_factura>
+        <cliente>
+          <nombre>Alicia</nombre>
+          <apellidos>Rodríguez Hernández</apellidos>
+          <telefono>677223344</telefono>
+          <direccion>
+            <calle>Calle de la Luz 12</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41004</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>alicia.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2021-04-28</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>EF2345</referencia>
+            <precio>23.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Polvos matificantes Make Up Forever</nombre>
+            <referencia>GH6789</referencia>
+            <precio>32.40</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>012</num_pedido>
+        <fecha_compra>2021-05-15</fecha_compra>
+        <fecha_entrega>2021-05-18</fecha_entrega>
+        <total_factura>62.75</total_factura>
+        <cliente>
+          <nombre>Laura</nombre>
+          <apellidos>Gil Fernández</apellidos>
+          <telefono>612345678</telefono>
+          <direccion>
+            <calle>Calle Mayor 4</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>laura.gil@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Barra de labios Rouge Dior</nombre>
+            <referencia>IJ3456</referencia>
+            <precio>34.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Spray fijador de maquillaje Urban Decay</nombre>
+            <referencia>KL7890</referencia>
+            <precio>14.25</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>013</num_pedido>
+        <fecha_compra>2021-04-15</fecha_compra>
+        <fecha_entrega>2021-04-20</fecha_entrega>
+        <total_factura>62.70</total_factura>
+        <cliente>
+          <nombre>Carmen</nombre>
+          <apellidos>López Díaz</apellidos>
+          <telefono>645332211</telefono>
+          <direccion>
+            <calle>Calle Mayor 12</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>carmen.lopez@gmail.com</correo>
+          <fecha_inclusion>2021-04-12</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema facial hidratante Nuxe</nombre>
+            <referencia>EF7890</referencia>
+            <precio>24.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Lápiz de cejas Benefit</nombre>
+            <referencia>GH1234</referencia>
+            <precio>18.20</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>014</num_pedido>
+        <fecha_compra>2021-05-01</fecha_compra>
+        <fecha_entrega>2021-05-06</fecha_entrega>
+        <total_factura>102.90</total_factura>
+        <cliente>
+          <nombre>Pablo</nombre>
+          <apellidos>Fernández Martínez</apellidos>
+          <telefono>674552233</telefono>
+          <direccion>
+            <calle>Plaza Mayor 6</calle>
+            <ciudad>Zaragoza</ciudad>
+            <codigo_postal>50001</codigo_postal>
+            <provincia>Zaragoza</provincia>
+          </direccion>
+          <correo>pablo.fernandez@hotmail.com</correo>
+          <fecha_inclusion>2021-04-28</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas They're Real! de Benefit</nombre>
+            <referencia>KL5678</referencia>
+            <precio>24.50</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Corrector líquido Born This Way de Too Faced</nombre>
+            <referencia>MN9012</referencia>
+            <precio>27.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador Luminizer de Becca</nombre>
+            <referencia>OP3456</referencia>
+            <precio>27.45</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>015</num_pedido>
+        <fecha_compra>2021-05-01</fecha_compra>
+        <fecha_entrega>2021-05-05</fecha_entrega>
+        <total_factura>65.90</total_factura>
+        <cliente>
+          <nombre>María</nombre>
+          <apellidos>Fernández Pérez</apellidos>
+          <telefono>622334455</telefono>
+          <direccion>
+            <calle>Calle Real 7</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>mariafp@hotmail.com</correo>
+          <fecha_inclusion>2021-04-28</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Desmaquillante bifásico ojos y labios</nombre>
+            <referencia>EF9012</referencia>
+            <precio>11.90</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Spray fijador de maquillaje All Nighter</nombre>
+            <referencia>GH3456</referencia>
+            <precio>27.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Corrector de ojeras Born This Way</nombre>
+            <referencia>IJ7890</referencia>
+            <precio>27.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>016</num_pedido>
+        <fecha_compra>2021-05-10</fecha_compra>
+        <fecha_entrega>2021-05-15</fecha_entrega>
+        <total_factura>49.80</total_factura>
+        <cliente>
+          <nombre>Andrea</nombre>
+          <apellidos>Jiménez López</apellidos>
+          <telefono>685339988</telefono>
+          <direccion>
+            <calle>Calle Sol 7</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>andrea.jimenez@hotmail.com</correo>
+          <fecha_inclusion>2021-04-15</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Lápiz de cejas Goof Proof</nombre>
+            <referencia>KL1234</referencia>
+            <precio>24.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>MN5678</referencia>
+            <precio>25.80</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>017</num_pedido>
+        <fecha_compra>2021-04-02</fecha_compra>
+        <fecha_entrega>2021-04-05</fecha_entrega>
+        <total_factura>89.95</total_factura>
+        <cliente>
+          <nombre>Marina</nombre>
+          <apellidos>Sánchez Pérez</apellidos>
+          <telefono>667778899</telefono>
+          <direccion>
+            <calle>Calle Gran Vía 12</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>marina.sanchez@gmail.com</correo>
+          <fecha_inclusion>2021-03-17</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Soft Glam</nombre>
+            <referencia>EF1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas They're Real</nombre>
+            <referencia>GH5678</referencia>
+            <precio>25.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>018</num_pedido>
+        <fecha_compra>2021-05-20</fecha_compra>
+        <fecha_entrega>2021-05-24</fecha_entrega>
+        <total_factura>69.95</total_factura>
+        <cliente>
+          <nombre>Marina</nombre>
+          <apellidos>Sánchez Pérez</apellidos>
+          <telefono>667778899</telefono>
+          <direccion>
+            <calle>Calle Gran Vía 12</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>marina.sanchez@gmail.com</correo>
+          <fecha_inclusion>2021-05-17</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Serum hidratante Kiehl's</nombre>
+            <referencia>EF1234</referencia>
+            <precio>29.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Agua micelar Bioderma</nombre>
+            <referencia>GH5678</referencia>
+            <precio>12.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>019</num_pedido>
+        <fecha_compra>2021-06-05</fecha_compra>
+        <fecha_entrega>2021-06-10</fecha_entrega>
+        <total_factura>96.50</total_factura>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Ruiz Martínez</apellidos>
+          <telefono>622334455</telefono>
+          <direccion>
+            <calle>Calle Mayor 5</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08002</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>sofia.ruiz@hotmail.com</correo>
+          <fecha_inclusion>2021-05-19</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de coloretes NARS</nombre>
+            <referencia>IJ1234</referencia>
+            <precio>35.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Polvos bronceadores Guerlain</nombre>
+            <referencia>KL5678</referencia>
+            <precio>25.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Yves Saint Laurent</nombre>
+            <referencia>MN9012</referencia>
+            <precio>16.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>020</num_pedido>
+        <fecha_compra>2021-05-03</fecha_compra>
+        <fecha_entrega>2021-05-08</fecha_entrega>
+        <total_factura>64.95</total_factura>
+        <cliente>
+          <nombre>Adriana</nombre>
+          <apellidos>García Navarro</apellidos>
+          <telefono>633987654</telefono>
+          <direccion>
+            <calle>Calle de la Gaviota, 12</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46010</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>adriana.garcia@gmail.com</correo>
+          <fecha_inclusion>2021-05-02</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Dolce Gabbana Light Blue</nombre>
+            <referencia>AB1234</referencia>
+            <precio>45.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Brillo de labios Gloss Bomb de Fenty Beauty</nombre>
+            <referencia>CD5678</referencia>
+            <precio>19.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos segundo trimestre 2021 -->
+
+    <trimestre trimestre="3">
+      <pedido>
+        <num_pedido>021</num_pedido>
+        <fecha_compra>2021-07-10</fecha_compra>
+        <fecha_entrega>2021-07-15</fecha_entrega>
+        <total_factura>155.50</total_factura>
+        <cliente>
+          <nombre>Cristina</nombre>
+          <apellidos>Rodríguez Sánchez</apellidos>
+          <telefono>666112233</telefono>
+          <direccion>
+            <calle>Calle del Jardín Secreto, 8</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>cristina.rodriguez@hotmail.com</correo>
+          <fecha_inclusion>2021-05-09</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Huda Beauty</nombre>
+            <referencia>EF1234</referencia>
+            <precio>44.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex de Too Faced</nombre>
+            <referencia>GH5678</referencia>
+            <precio>29.95</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Labial Rouge Pur Couture de YSL</nombre>
+            <referencia>IJ9012</referencia>
+            <precio>26.95</precio>
+            <unidades>3</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>022</num_pedido>
+        <fecha_compra>2021-07-15</fecha_compra>
+        <fecha_entrega>2021-07-19</fecha_entrega>
+        <total_factura>182.00</total_factura>
+        <cliente>
+          <nombre>Valeria</nombre>
+          <apellidos>Rodríguez Aranda</apellidos>
+          <telefono>612334455</telefono>
+          <direccion>
+            <calle>Calle de la Palmera, 8</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41011</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>valeria.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2023-01-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>GH8901</referencia>
+            <precio>23.50</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Good Girl</nombre>
+            <referencia>OP3456</referencia>
+            <precio>95.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios Rouge Volupté Shine</nombre>
+            <referencia>TY1290</referencia>
+            <precio>23.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>023</num_pedido>
+        <fecha_compra>2021-07-20</fecha_compra>
+        <fecha_entrega>2021-07-24</fecha_entrega>
+        <total_factura>115.00</total_factura>
+        <cliente>
+          <nombre>Javier</nombre>
+          <apellidos>Rodríguez Medina</apellidos>
+          <telefono>655887722</telefono>
+          <direccion>
+            <calle>Calle de los Pinos, 14</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41010</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>javi_rodriguez@gmail.com</correo>
+          <fecha_inclusion>2021-05-17</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Base de maquillaje Born This Way</nombre>
+            <referencia>FG2234</referencia>
+            <precio>35.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Heat</nombre>
+            <referencia>AB1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+      
+      <pedido>
+        <num_pedido>024</num_pedido>
+        <fecha_compra>2021-08-02</fecha_compra>
+        <fecha_entrega>2021-08-06</fecha_entrega>
+        <total_factura>125.50</total_factura>
+        <cliente>
+          <nombre>Renata</nombre>
+          <apellidos>Martínez Pérez</apellidos>
+          <telefono>633887766</telefono>
+          <direccion>
+            <calle>Calle Real 12</calle>
+            <ciudad>Granada</ciudad>
+            <codigo_postal>18001</codigo_postal>
+            <provincia>Granada</provincia>
+          </direccion>
+          <correo>renata.martinez@gmail.com</correo>
+          <fecha_inclusion>2022-09-22</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Labial líquido mate Sephora Collection</nombre>
+            <referencia>EF1234</referencia>
+            <precio>12.95</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Chanel Nº5</nombre>
+            <referencia>GH5678</referencia>
+            <precio>99.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>025</num_pedido>
+        <fecha_compra>2021-08-05</fecha_compra>
+        <fecha_entrega>2021-08-08</fecha_entrega>
+        <total_factura>57.20</total_factura>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>López Sánchez</apellidos>
+          <telefono>655334455</telefono>
+          <direccion>
+            <calle>Calle del Rastro, 9</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>carlos.lopez@gmail.com</correo>
+          <fecha_inclusion>2021-01-03</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Corrector líquido de larga duración Kat Von D</nombre>
+            <referencia>AB6789</referencia>
+            <precio>22.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex de Too Faced</nombre>
+            <referencia>CD1234</referencia>
+            <precio>25.20</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>026</num_pedido>
+        <fecha_compra>2021-09-10</fecha_compra>
+        <fecha_entrega>2021-09-15</fecha_entrega>
+        <total_factura>132.90</total_factura>
+        <cliente>
+          <nombre>Isabel</nombre>
+          <apellidos>Martínez Sánchez</apellidos>
+          <telefono>633223344</telefono>
+          <direccion>
+            <calle>Calle de las Flores, 12</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41003</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>isabel.martinez@gmail.com</correo>
+          <fecha_inclusion>2021-09-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante Biotherm</nombre>
+            <referencia>XY4567</referencia>
+            <precio>35.95</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas They're Real! de Benefit</nombre>
+            <referencia>YZ8901</referencia>
+            <precio>27.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>027</num_pedido>
+        <fecha_compra>2021-09-21</fecha_compra>
+        <fecha_entrega>2021-09-26</fecha_entrega>
+        <total_factura>82.50</total_factura>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>López Sánchez</apellidos>
+          <telefono>655334455</telefono>
+          <direccion>
+            <calle>Calle del Rastro, 9</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>carlos.lopez@gmail.com</correo>
+          <fecha_inclusion>2021-01-03</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Pintalabios MAC Matte Lipstick</nombre>
+            <referencia>AB2345</referencia>
+            <precio>20.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas BADgal BANG! de Benefit</nombre>
+            <referencia>CD6789</referencia>
+            <precio>24.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>028</num_pedido>
+        <fecha_compra>2021-08-15</fecha_compra>
+        <fecha_entrega>2021-08-18</fecha_entrega>
+        <total_factura>66.99</total_factura>
+        <cliente>
+          <nombre>Olivia</nombre>
+          <apellidos>Magallanes López</apellidos>
+          <telefono>622112233</telefono>
+          <direccion>
+            <calle>Paseo de la Castellana, 25</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28046</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>olivia.magallanes@gmail.com</correo>
+          <fecha_inclusion>2021-08-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Chloé Eau de Parfum</nombre>
+            <referencia>IJ5678</referencia>
+            <precio>52.99</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>029</num_pedido>
+        <fecha_compra>2021-08-15</fecha_compra>
+        <fecha_entrega>2021-08-19</fecha_entrega>
+        <total_factura>152.30</total_factura>
+        <cliente>
+          <nombre>Elvira</nombre>
+          <apellidos>Navarro Jiménez</apellidos>
+          <telefono>639887766</telefono>
+          <direccion>
+            <calle>Rua das Hortas, 17</calle>
+            <ciudad>Santiago de Compostela</ciudad>
+            <codigo_postal>15702</codigo_postal>
+            <provincia>A Coruña</provincia>
+          </direccion>
+          <correo>elvira.navarro@gmail.com</correo>
+          <fecha_inclusion>2021-08-12</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Chloé</nombre>
+            <referencia>GH4567</referencia>
+            <precio>65.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante Nivea</nombre>
+            <referencia>ST8901</referencia>
+            <precio>11.75</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Benefit</nombre>
+            <referencia>UV2345</referencia>
+            <precio>17.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>030</num_pedido>
+        <fecha_compra>2021-08-22</fecha_compra>
+        <fecha_entrega>2021-08-26</fecha_entrega>
+        <total_factura>75.40</total_factura>
+        <cliente>
+          <nombre>Lucinda</nombre>
+          <apellidos>Rodríguez Ortiz</apellidos>
+          <telefono>654334455</telefono>
+          <direccion>
+            <calle>Calle Encina, 34</calle>
+            <ciudad>Salamanca</ciudad>
+            <codigo_postal>37002</codigo_postal>
+            <provincia>Salamanca</provincia>
+          </direccion>
+          <correo>lucinda.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2021-08-21</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Labial MAC</nombre>
+            <referencia>AB1234</referencia>
+            <precio>19.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Polvos de sol Lancôme</nombre>
+            <referencia>CD5678</referencia>
+            <precio>25.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos tercer trimestre 2021 -->
+
+    <trimestre trimestre="4">
+      <pedido>
+        <num_pedido>031</num_pedido>
+        <fecha_compra>2022-10-02</fecha_compra>
+        <fecha_entrega>2022-10-06</fecha_entrega>
+        <total_factura>125.50</total_factura>
+        <cliente>
+          <nombre>Zulema</nombre>
+          <apellidos>Rosales Sánchez</apellidos>
+          <telefono>658432156</telefono>
+          <direccion>
+            <calle>Calle de la Fuente 19</calle>
+            <ciudad>Burgos</ciudad>
+            <codigo_postal>09001</codigo_postal>
+            <provincia>Burgos</provincia>
+          </direccion>
+          <correo>zulema.rosales@gmail.com</correo>
+          <fecha_inclusion>2022-02-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Heat</nombre>
+            <referencia>AB1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Fenty Beauty</nombre>
+            <referencia>CD5678</referencia>
+            <precio>35.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>032</num_pedido>
+        <fecha_compra>2022-10-10</fecha_compra>
+        <fecha_entrega>2022-10-15</fecha_entrega>
+        <total_factura>173.95</total_factura>
+        <cliente>
+          <nombre>Valentina</nombre>
+          <apellidos>Marín Pérez</apellidos>
+          <telefono>666445566</telefono>
+          <direccion>
+            <calle>Calzada de los Molinos, 8</calle>
+            <ciudad>Salamanca</ciudad>
+            <codigo_postal>37001</codigo_postal>
+            <provincia>Salamanca</provincia>
+          </direccion>
+          <correo>valentina.marin@gmail.com</correo>
+          <fecha_inclusion>2021-08-31</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Alien de Mugler</nombre>
+            <referencia>EF1234</referencia>
+            <precio>64.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador en stick Becca</nombre>
+            <referencia>GH5678</referencia>
+            <precio>39.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Spray fijador de maquillaje Urban Decay</nombre>
+            <referencia>IJ9012</referencia>
+            <precio>15.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>033</num_pedido>
+        <fecha_compra>2022-11-10</fecha_compra>
+        <fecha_entrega>2022-11-14</fecha_entrega>
+        <total_factura>97.20</total_factura>
+        <cliente>
+          <nombre>Melania</nombre>
+          <apellidos>Rodriguez Pulido</apellidos>
+          <telefono>677889900</telefono>
+          <direccion>
+            <calle>Calle de la Estrella 7</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>melania.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2022-08-25</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Labial de larga duración Kat Von D</nombre>
+            <referencia>KVD001</referencia>
+            <precio>23.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Colorete NARS</nombre>
+            <referencia>NR1234</referencia>
+            <precio>13.60</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>034</num_pedido>
+        <fecha_compra>2022-11-24</fecha_compra>
+        <fecha_entrega>2022-11-28</fecha_entrega>
+        <total_factura>86.35</total_factura>
+        <cliente>
+          <nombre>Alma</nombre>
+          <apellidos>Pérez García</apellidos>
+          <telefono>645223344</telefono>
+          <direccion>
+            <calle>Calle de la Paz 23</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>alma.perez@hotmail.com</correo>
+          <fecha_inclusion>2022-09-20</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de iluminadores Huda Beauty</nombre>
+            <referencia>HB5678</referencia>
+            <precio>29.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Shiseido</nombre>
+            <referencia>SHI1234</referencia>
+            <precio>16.95</precio>
+            <unidades>3</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>035</num_pedido>
+        <fecha_compra>2022-12-05</fecha_compra>
+        <fecha_entrega>2022-12-09</fecha_entrega>
+        <total_factura>82.70</total_factura>
+        <cliente>
+          <nombre>Claudia</nombre>
+          <apellidos>Montes Valverde</apellidos>
+          <telefono>674555777</telefono>
+          <direccion>
+            <calle>Calle de Alcalá 77</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28009</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>claudia.montesv@gmail.com</correo>
+          <fecha_inclusion>2022-08-30</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>BT7890</referencia>
+            <precio>23.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador en polvo Becca</nombre>
+            <referencia>BC4321</referencia>
+            <precio>21.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios Sephora Collection</nombre>
+            <referencia>SC2468</referencia>
+            <precio>12.20</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>036</num_pedido>
+        <fecha_compra>2022-11-04</fecha_compra>
+        <fecha_entrega>2022-11-10</fecha_entrega>
+        <total_factura>86.50</total_factura>
+        <cliente>
+          <nombre>Alejandra</nombre>
+          <apellidos>Leal Vázquez</apellidos>
+          <telefono>609234567</telefono>
+          <direccion>
+            <calle>Calle de Gran Vía 14</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>alejandralealvzq@gmail.com</correo>
+          <fecha_inclusion>2022-09-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Roller Lash de Benefit</nombre>
+            <referencia>EF3456</referencia>
+            <precio>25.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Paleta de sombras Huda Beauty Nude Light</nombre>
+            <referencia>GH7890</referencia>
+            <precio>38.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>037</num_pedido>
+        <fecha_compra>2021-10-20</fecha_compra>
+        <fecha_entrega>2021-10-24</fecha_entrega>
+        <total_factura>102.80</total_factura>
+        <cliente>
+          <nombre>Leonor</nombre>
+          <apellidos>Jiménez López</apellidos>
+          <telefono>685996677</telefono>
+          <direccion>
+            <calle>Calle San Miguel 5</calle>
+            <ciudad>Granada</ciudad>
+            <codigo_postal>18009</codigo_postal>
+            <provincia>Granada</provincia>
+          </direccion>
+          <correo>leonor.jimenez@hotmail.com</correo>
+          <fecha_inclusion>2021-04-29</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante Watermelon Glow</nombre>
+            <referencia>AB6789</referencia>
+            <precio>34.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Serum C E Ferulic de Skinceuticals</nombre>
+            <referencia>CD1234</referencia>
+            <precio>68.30</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>038</num_pedido>
+        <fecha_compra>2023-12-02</fecha_compra>
+        <fecha_entrega>2023-12-07</fecha_entrega>
+        <total_factura>149.99</total_factura>
+        <cliente>
+          <nombre>Aina</nombre>
+          <apellidos>Martínez Santos</apellidos>
+          <telefono>656897451</telefono>
+          <direccion>
+            <calle>Calle Mayor 10</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>aina.martinez@gmail.com</correo>
+          <fecha_inclusion>2022-12-28</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante Korres</nombre>
+            <referencia>AB2345</referencia>
+            <precio>22.99</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios Dior</nombre>
+            <referencia>CD4567</referencia>
+            <precio>37.50</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador Becca Champagne Pop</nombre>
+            <referencia>EF6789</referencia>
+            <precio>25.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>039</num_pedido>
+        <fecha_compra>2021-10-15</fecha_compra>
+        <fecha_entrega>2021-10-19</fecha_entrega>
+        <total_factura>85.20</total_factura>
+        <cliente>
+          <nombre>Noelia</nombre>
+          <apellidos>Sancho de la Fuente</apellidos>
+          <telefono>634998877</telefono>
+          <direccion>
+            <calle>Calle del Sol 7</calle>
+            <ciudad>Córdoba</ciudad>
+            <codigo_postal>14001</codigo_postal>
+            <provincia>Córdoba</provincia>
+          </direccion>
+          <correo>noelia.sancho@hotmail.com</correo>
+          <fecha_inclusion>2022-08-14</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Labial líquido Rouge Velvet</nombre>
+            <referencia>EF3456</referencia>
+            <precio>21.90</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador Becca Champagne Pop</nombre>
+            <referencia>GH7890</referencia>
+            <precio>20.20</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>040</num_pedido>
+        <fecha_compra>2022-12-01</fecha_compra>
+        <fecha_entrega>2022-12-05</fecha_entrega>
+        <total_factura>177.60</total_factura>
+        <cliente>
+          <nombre>Ángela</nombre>
+          <apellidos>Díaz Hernández</apellidos>
+          <telefono>611223344</telefono>
+          <direccion>
+            <calle>Calle Mayor 12</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>angela.diaz@hotmail.com</correo>
+          <fecha_inclusion>2022-07-15</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Lancôme La Vie est Belle</nombre>
+            <referencia>EF4567</referencia>
+            <precio>89.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante facial Clinique</nombre>
+            <referencia>GH7890</referencia>
+            <precio>44.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos cuarto trimestre 2021 -->
+  </year>
+  <!-- Fin del año 2021 -->
+
+  <year year="2022">
+    <trimestre trimestre="1">
+      <pedido>
+        <num_pedido>041</num_pedido>
+        <fecha_compra>2022-01-01</fecha_compra>
+        <fecha_entrega>2022-01-06</fecha_entrega>
+        <total_factura>52.00</total_factura>
+        <cliente>
+          <nombre>Valentina</nombre>
+          <apellidos>Marín Pérez</apellidos>
+          <telefono>666445566</telefono>
+          <direccion>
+            <calle>Calzada de los Molinos, 8</calle>
+            <ciudad>Salamanca</ciudad>
+            <codigo_postal>37001</codigo_postal>
+            <provincia>Salamanca</provincia>
+          </direccion>
+          <correo>valentina.marin@gmail.com</correo>
+          <fecha_inclusion>2021-08-31</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>EF7890</referencia>
+            <precio>25.99</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Pintalabios Rouge G</nombre>
+            <referencia>GH1234</referencia>
+            <precio>26.01</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>042</num_pedido>
+        <fecha_compra>2022-01-15</fecha_compra>
+        <fecha_entrega>2022-01-20</fecha_entrega>
+        <total_factura>42.50</total_factura>
+        <cliente>
+          <nombre>Patricia</nombre>
+          <apellidos>Prieto García</apellidos>
+          <telefono>645223344</telefono>
+          <direccion>
+            <calle>Calle del Grial 14</calle>
+            <ciudad>Toledo</ciudad>
+            <codigo_postal>45001</codigo_postal>
+            <provincia>Toledo</provincia>
+          </direccion>
+          <correo>patricia.prieto@gmail.com</correo>
+          <fecha_inclusion>2021-09-14</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Reloaded</nombre>
+            <referencia>AB5678</referencia>
+            <precio>39.99</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios YSL Rouge Volupté Shine</nombre>
+            <referencia>CD9012</referencia>
+            <precio>19.51</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>043</num_pedido>
+        <fecha_compra>2022-01-15</fecha_compra>
+        <fecha_entrega>2022-01-20</fecha_entrega>
+        <total_factura>87.80</total_factura>
+        <cliente>
+          <nombre>Azucena</nombre>
+          <apellidos>Ruíz Pineda</apellidos>
+          <telefono>691998877</telefono>
+          <direccion>
+            <calle>Calle de las Camelias 17</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08032</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>azucena.ruiz@gmail.com</correo>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Base de maquillaje Born This Way</nombre>
+            <referencia>EF7890</referencia>
+            <precio>39.90</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Lápiz de ojos Marc Jacobs Beauty</nombre>
+            <referencia>GH1234</referencia>
+            <precio>16.90</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>044</num_pedido>
+        <fecha_compra>2022-02-01</fecha_compra>
+        <fecha_entrega>2022-02-05</fecha_entrega>
+        <total_factura>62.70</total_factura>
+        <cliente>
+          <nombre>Celia</nombre>
+          <apellidos>Pérez Márquez</apellidos>
+          <telefono>617776655</telefono>
+          <direccion>
+            <calle>Calle de las Flores 9</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41002</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>celia.perez@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Barra de labios MAC</nombre>
+            <referencia>IJ4567</referencia>
+            <precio>22.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>045</num_pedido>
+        <fecha_compra>2022-01-05</fecha_compra>
+        <fecha_entrega>2022-01-10</fecha_entrega>
+        <total_factura>80.45</total_factura>
+        <cliente>
+          <nombre>Nahia</nombre>
+          <apellidos>San Martín Rodríguez</apellidos>
+          <telefono>667998877</telefono>
+          <direccion>
+            <calle>Plaza de la Cebada, 14</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28005</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>nahia.sanmartin@gmail.com</correo>
+          <fecha_inclusion>2022-01-02</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>AB2345</referencia>
+            <precio>25.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Rosa salvaje Eau de Parfum</nombre>
+            <referencia>CD3456</referencia>
+            <precio>54.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>046</num_pedido>
+        <fecha_compra>2022-03-15</fecha_compra>
+        <fecha_entrega>2022-03-20</fecha_entrega>
+        <total_factura>32.75</total_factura>
+        <cliente>
+          <nombre>Leire</nombre>
+          <apellidos>Barbero Martínez</apellidos>
+          <telefono>679445522</telefono>
+          <direccion>
+            <calle>Calle Real, 3</calle>
+            <ciudad>Alcalá de Henares</ciudad>
+            <codigo_postal>28801</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>leire.barbero@hotmail.com</correo>
+          <fecha_inclusion>2022-01-13</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante Sephora Collection</nombre>
+            <referencia>EF4567</referencia>
+            <precio>12.99</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Sombras de ojos Sephora Collection</nombre>
+            <referencia>GH5678</referencia>
+            <precio>19.76</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>047</num_pedido>
+        <fecha_compra>2022-01-14</fecha_compra>
+        <fecha_entrega>2022-01-18</fecha_entrega>
+        <total_factura>23.95</total_factura>
+        <cliente>
+          <nombre>Nahia</nombre>
+          <apellidos>San Martín Rodríguez</apellidos>
+          <telefono>667998877</telefono>
+          <direccion>
+            <calle>Plaza de la Cebada, 14</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28005</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>nahia.sanmartin@gmail.com</correo>
+          <fecha_inclusion>2022-01-02</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>EF3456</referencia>
+            <precio>23.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>048</num_pedido>
+        <fecha_compra>2022-03-22</fecha_compra>
+        <fecha_entrega>2022-03-26</fecha_entrega>
+        <total_factura>94.50</total_factura>
+        <cliente>
+          <nombre>Miriam</nombre>
+          <apellidos>Muñoz González</apellidos>
+          <telefono>687778899</telefono>
+          <direccion>
+            <calle>Calle Cuarzo, 15</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>miriam.munoz@gmail.com</correo>
+          <fecha_inclusion>2022-01-20</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos The New Nude</nombre>
+            <referencia>GH7890</referencia>
+            <precio>46.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Nars Radiant Longwear</nombre>
+            <referencia>KL2345</referencia>
+            <precio>48.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>049</num_pedido>
+        <fecha_compra>2022-03-02</fecha_compra>
+        <fecha_entrega>2022-03-06</fecha_entrega>
+        <total_factura>66.90</total_factura>
+        <cliente>
+          <nombre>Elisa</nombre>
+          <apellidos>Rivera García</apellidos>
+          <telefono>669998877</telefono>
+          <direccion>
+            <calle>Calle Sant Francesc, 5</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08006</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>elisa.rivera@gmail.com</correo>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Heat</nombre>
+            <referencia>AB1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Lápiz de cejas Precisely, My Brow Pencil</nombre>
+            <referencia>CD5678</referencia>
+            <precio>16.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>050</num_pedido>
+        <fecha_compra>2022-03-10</fecha_compra>
+        <fecha_entrega>2022-03-15</fecha_entrega>
+        <total_factura>46.50</total_factura>
+        <cliente>
+          <nombre>Valentina</nombre>
+          <apellidos>Marín Pérez</apellidos>
+          <telefono>666445566</telefono>
+          <direccion>
+            <calle>Calzada de los Molinos, 8</calle>
+            <ciudad>Salamanca</ciudad>
+            <codigo_postal>37001</codigo_postal>
+            <provincia>Salamanca</provincia>
+          </direccion>
+          <correo>valentina.marin@gmail.com</correo>
+          <fecha_inclusion>2021-08-31</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Iluminador líquido High Beam</nombre>
+            <referencia>EF9012</referencia>
+            <precio>27.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Roller Lash</nombre>
+            <referencia>GH3456</referencia>
+            <precio>19.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos primer trimestre 2022 -->
+
+    <trimestre trimestre="2">
+      <pedido>
+        <num_pedido>051</num_pedido>
+        <fecha_compra>2022-05-12</fecha_compra>
+        <fecha_entrega>2022-05-18</fecha_entrega>
+        <total_factura>216.99</total_factura>
+        <cliente>
+          <nombre>Lucinda</nombre>
+          <apellidos>Rodríguez Ortiz</apellidos>
+          <telefono>654334455</telefono>
+          <direccion>
+            <calle>Calle Encina, 34</calle>
+            <ciudad>Salamanca</ciudad>
+            <codigo_postal>37002</codigo_postal>
+            <provincia>Salamanca</provincia>
+          </direccion>
+          <correo>lucinda.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2021-02-21</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Badgal Bang</nombre>
+            <referencia>EF9012</referencia>
+            <precio>26.50</precio>
+            <unidades>3</unidades>
+          </producto>
+          <producto>
+            <nombre>Paleta de correctores Sephora Collection</nombre>
+            <referencia>GH3456</referencia>
+            <precio>29.99</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Spray fijador de maquillaje Urban Decay All Nighter</nombre>
+            <referencia>IJ7890</referencia>
+            <precio>35.99</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>052</num_pedido>
+        <fecha_compra>2022-05-15</fecha_compra>
+        <fecha_entrega>2022-05-20</fecha_entrega>
+        <total_factura>132.90</total_factura>
+        <cliente>
+          <nombre>Celia</nombre>
+          <apellidos>Pérez Márquez</apellidos>
+          <telefono>617776655</telefono>
+          <direccion>
+            <calle>Calle de las Flores 9</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41002</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>celia.perez@gmail.com</correo>
+          <fecha_inclusion>2021-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>EF1234</referencia>
+            <precio>25.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Gucci Bloom</nombre>
+            <referencia>GH5678</referencia>
+            <precio>41.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>053</num_pedido>
+        <fecha_compra>2022-04-12</fecha_compra>
+        <fecha_entrega>2022-04-15</fecha_entrega>
+        <total_factura>181.90</total_factura>
+        <cliente>
+          <nombre>Emilia</nombre>
+          <apellidos>Rodríguez Pérez</apellidos>
+          <telefono>666223344</telefono>
+          <direccion>
+            <calle>Calle La Paz 10</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>emilia.rodriguez@hotmail.com</correo>
+          <fecha_inclusion>2022-02-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Alien de Mugler</nombre>
+            <referencia>EF1234</referencia>
+            <precio>85.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador Becca Champagne Pop</nombre>
+            <referencia>GH5678</referencia>
+            <precio>36.00</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Pintalabios YSL Rouge Volupté Shine</nombre>
+            <referencia>IJ9012</referencia>
+            <precio>20.95</precio>
+            <unidades>3</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>054</num_pedido>
+        <fecha_compra>2022-05-02</fecha_compra>
+        <fecha_entrega>2022-05-06</fecha_entrega>
+        <total_factura>125.50</total_factura>
+        <cliente>
+          <nombre>Lucía</nombre>
+          <apellidos>González García</apellidos>
+          <telefono>699112233</telefono>
+          <direccion>
+            <calle>Calle Mayor 3</calle>
+            <ciudad>Madrid</ciudad>
+            <codigo_postal>28013</codigo_postal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correo>lucia.gonzalez@gmail.com</correo>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Eau de Parfum Yves Saint Laurent</nombre>
+            <referencia>AB1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Benefit</nombre>
+            <referencia>CD5678</referencia>
+            <precio>35.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>055</num_pedido>
+        <fecha_compra>2022-04-15</fecha_compra>
+        <fecha_entrega>2022-04-20</fecha_entrega>
+        <total_factura>97.60</total_factura>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>López Sánchez</apellidos>
+          <telefono>655334455</telefono>
+          <direccion>
+            <calle>Calle del Rastro, 9</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>carlos.lopez@gmail.com</correo>
+          <fecha_inclusion>2021-01-03</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Eau de Parfum Calvin Klein</nombre>
+            <referencia>EF9012</referencia>
+            <precio>65.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Polvos bronceadores de Benefit</nombre>
+            <referencia>GH3456</referencia>
+            <precio>16.50</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>056</num_pedido>
+        <fecha_compra>2022-06-02</fecha_compra>
+        <fecha_entrega>2022-05-06</fecha_entrega>
+        <total_factura>125.50</total_factura>
+        <cliente>
+          <nombre>María</nombre>
+          <apellidos>Fernández Pérez</apellidos>
+          <telefono>622334455</telefono>
+          <direccion>
+            <calle>Calle Real 7</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>mariafp@hotmail.com</correo>
+          <fecha_inclusion>2021-05-28</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Heat</nombre>
+            <referencia>AB1234</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Fenty Beauty</nombre>
+            <referencia>CD5678</referencia>
+            <precio>35.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>057</num_pedido>
+        <fecha_compra>2022-06-15</fecha_compra>
+        <fecha_entrega>2022-06-20</fecha_entrega>
+        <total_factura>97.60</total_factura>
+        <cliente>
+          <nombre>David</nombre>
+          <apellidos>Gómez Alonso</apellidos>
+          <telefono>611223344</telefono>
+          <direccion>
+            <calle>Calle Balmes 45</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08007</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>david.gomez@hotmail.com</correo>
+          <fecha_inclusion>2022-04-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Eau de Parfum Yves Saint Laurent</nombre>
+            <referencia>EF9012</referencia>
+            <precio>65.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Polvos translúcidos de Benefit</nombre>
+            <referencia>GH3456</referencia>
+            <precio>16.50</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>058</num_pedido>
+        <fecha_compra>2022-05-20</fecha_compra>
+        <fecha_entrega>2022-05-25</fecha_entrega>
+        <total_factura>98.99</total_factura>
+        <cliente>
+          <nombre>Ezequiel</nombre>
+          <apellidos>Galindo García</apellidos>
+          <telefono>633856771</telefono>
+          <direccion>
+            <calle>Calle del Aire, 27</calle>
+            <ciudad>Albacete</ciudad>
+            <codigo_postal>02001</codigo_postal>
+            <provincia>Albacete</provincia>
+          </direccion>
+          <correo>ezequielgalindo@gmail.com</correo>
+          <fecha_inclusion>2022-02-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas They're Real! de Benefit</nombre>
+            <referencia>PROD123</referencia>
+            <precio>26.99</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios Rouge Coco Flash de Chanel</nombre>
+            <referencia>PROD456</referencia>
+            <precio>34.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>059</num_pedido>
+        <fecha_compra>2022-06-23</fecha_compra>
+        <fecha_entrega>2022-06-30</fecha_entrega>
+        <total_factura>125.80</total_factura>
+        <cliente>
+          <nombre>Zulema</nombre>
+          <apellidos>Rosales Sánchez</apellidos>
+          <telefono>658432156</telefono>
+          <direccion>
+            <calle>Calle de la Fuente 19</calle>
+            <ciudad>Burgos</ciudad>
+            <codigo_postal>09001</codigo_postal>
+            <provincia>Burgos</provincia>
+          </direccion>
+          <correo>zulema.rosales@gmail.com</correo>
+          <fecha_inclusion>2022-02-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Heat de Urban Decay</nombre>
+            <referencia>PROD789</referencia>
+            <precio>49.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante Hydra Zen de Lancôme</nombre>
+            <referencia>PROD321</referencia>
+            <precio>45.85</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>060</num_pedido>
+        <fecha_compra>2022-04-15</fecha_compra>
+        <fecha_entrega>2022-04-19</fecha_entrega>
+        <total_factura>72.80</total_factura>
+        <cliente>
+          <nombre>Noelia</nombre>
+          <apellidos>Sancho de la Fuente</apellidos>
+          <telefono>634998877</telefono>
+          <direccion>
+            <calle>Calle del Sol 7</calle>
+            <ciudad>Córdoba</ciudad>
+            <codigo_postal>14001</codigo_postal>
+            <provincia>Córdoba</provincia>
+          </direccion>
+          <correo>noelia.sancho@hotmail.com</correo>
+          <fecha_inclusion>2022-01-14</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Black Opium</nombre>
+            <referencia>AB0001</referencia>
+            <precio>55.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas Better Than Sex</nombre>
+            <referencia>CD0002</referencia>
+            <precio>17.80</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos segundo trimestre 2022 -->
+
+    <trimestre trimestre="3">
+      <pedido>
+        <num_pedido>061</num_pedido>
+        <fecha_compra>2022-07-23</fecha_compra>
+        <fecha_entrega>2022-07-26</fecha_entrega>
+        <total_factura>91.50</total_factura>
+        <cliente>
+          <nombre>Renata</nombre>
+          <apellidos>Martínez Pérez</apellidos>
+          <telefono>633887766</telefono>
+          <direccion>
+            <calle>Calle Real 12</calle>
+            <ciudad>Granada</ciudad>
+            <codigo_postal>18001</codigo_postal>
+            <provincia>Granada</provincia>
+          </direccion>
+          <correo>renata.martinez@gmail.com</correo>
+          <fecha_inclusion>2022-04-22</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Naked Cherry</nombre>
+            <referencia>AB0003</referencia>
+            <precio>47.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Brillo de labios Dior Lip Maximizer</nombre>
+            <referencia>CD0004</referencia>
+            <precio>18.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>062</num_pedido>
+        <fecha_compra>2022-09-05</fecha_compra>
+        <fecha_entrega>2022-09-07</fecha_entrega>
+        <total_factura>89.50</total_factura>
+        <cliente>
+          <nombre>Ainoa</nombre>
+          <apellidos>Fuentes Villanueva</apellidos>
+          <telefono>600998877</telefono>
+          <direccion>
+            <calle>Calle de la Marina 9</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46011</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>ainoa.fuentes@gmail.com</correo>
+          <fecha_inclusion>2021-01-27</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Narciso Rodriguez For Her</nombre>
+            <referencia>NR5678</referencia>
+            <precio>58.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante Origins</nombre>
+            <referencia>OG4567</referencia>
+            <precio>31.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>063</num_pedido>
+        <fecha_compra>2022-08-25</fecha_compra>
+        <fecha_entrega>2022-08-30</fecha_entrega>
+        <total_factura>132.00</total_factura>
+        <cliente>
+          <nombre>Yeray</nombre>
+          <apellidos>Santana Torres</apellidos>
+          <telefono>666335522</telefono>
+          <direccion>
+            <calle>Calle del Sol 8</calle>
+            <ciudad>Málaga</ciudad>
+            <codigo_postal>29006</codigo_postal>
+            <provincia>Málaga</provincia>
+          </direccion>
+          <correo>yeray.santana@gmail.com</correo>
+          <fecha_inclusion>2022-01-20</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema antiarrugas Clarins</nombre>
+            <referencia>CL2345</referencia>
+            <precio>69.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Yves Saint Laurent Libre</nombre>
+            <referencia>YSL3456</referencia>
+            <precio>63.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>064</num_pedido>
+        <fecha_compra>2022-09-25</fecha_compra>
+        <fecha_entrega>2022-09-30</fecha_entrega>
+        <total_factura>287.80</total_factura>
+        <cliente>
+          <nombre>Elvira</nombre>
+          <apellidos>Navarro Jiménez</apellidos>
+          <telefono>677998877</telefono>
+          <direccion>
+            <calle>Calle Mayor 15</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>elvira.navarro@gmail.com</correo>
+          <fecha_inclusion>2022-08-20</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Roller Lash</nombre>
+            <referencia>EF1234</referencia>
+            <precio>25.95</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Iluminador Becca Shimmering Skin Perfector</nombre>
+            <referencia>GH5678</referencia>
+            <precio>35.00</precio>
+            <unidades>3</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Carolina Herrera Good Girl</nombre>
+            <referencia>IJ9012</referencia>
+            <precio>97.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>065</num_pedido>
+        <fecha_compra>2022-07-01</fecha_compra>
+        <fecha_entrega>2022-07-06</fecha_entrega>
+        <total_factura>64.00</total_factura>
+        <cliente>
+          <nombre>Paloma</nombre>
+          <apellidos>González Gómez</apellidos>
+          <telefono>633445566</telefono>
+          <direccion>
+            <calle>Calle de la Paz 7</calle>
+            <ciudad>Zaragoza</ciudad>
+            <codigo_postal>50009</codigo_postal>
+            <provincia>Zaragoza</provincia>
+          </direccion>
+          <correo>paloma.gonzalez@gmail.com</correo>
+          <fecha_inclusion>2022-03-30</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Barra de labios Sephora Collection #Lipstories</nombre>
+            <referencia>KL3456</referencia>
+            <precio>8.99</precio>
+            <unidades>4</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>066</num_pedido>
+        <fecha_compra>2022-09-09</fecha_compra>
+        <fecha_entrega>2022-09-15</fecha_entrega>
+        <total_factura>141.70</total_factura>
+        <cliente>
+          <nombre>Nuria</nombre>
+          <apellidos>Ramírez Martín</apellidos>
+          <telefono>654789321</telefono>
+          <direccion>
+            <calle>Calle de la Palmera 14</calle>
+            <ciudad>Granada</ciudad>
+            <codigo_postal>18012</codigo_postal>
+            <provincia>Granada</provincia>
+          </direccion>
+          <correo>nuria.ramirez@gmail.com</correo>
+          <fecha_inclusion>2022-01-08</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Chocolate Bar</nombre>
+            <referencia>AB3456</referencia>
+            <precio>42.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Studio Fix Fluid</nombre>
+            <referencia>CD7890</referencia>
+            <precio>29.50</precio>
+            <unidades>3</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>067</num_pedido>
+        <fecha_compra>2023-07-10</fecha_compra>
+        <fecha_entrega>2023-07-12</fecha_entrega>
+        <total_factura>97.80</total_factura>
+        <cliente>
+          <nombre>Maximiliano</nombre>
+          <apellidos>Alcázar Guzmán</apellidos>
+          <telefono>687554433</telefono>
+          <direccion>
+            <calle>Calle Siena 17</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41012</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>max.alcazar@gmail.com</correo>
+          <fecha_inclusion>2023-01-06</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas They're Real! Tinted Primer</nombre>
+            <referencia>EF7890</referencia>
+            <precio>26.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Base de maquillaje Superstay 24h de Maybelline</nombre>
+            <referencia>GH2345</referencia>
+            <precio>14.99</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Labial Rouge Dior Ultra Care Liquid</nombre>
+            <referencia>JK6789</referencia>
+            <precio>29.95</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>068</num_pedido>
+        <fecha_compra>2022-09-15</fecha_compra>
+        <fecha_entrega>2022-09-20</fecha_entrega>
+        <total_factura>89.50</total_factura>
+        <cliente>
+          <nombre>Emilia</nombre>
+          <apellidos>Vega Gómez</apellidos>
+          <telefono>688444555</telefono>
+          <direccion>
+            <calle>Calle del Pino 7</calle>
+            <ciudad>Granada</ciudad>
+            <codigo_postal>18014</codigo_postal>
+            <provincia>Granada</provincia>
+          </direccion>
+          <correo>emilia.vega@gmail.com</correo>
+          <fecha_inclusion>2022-07-12</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Yves Saint Laurent Black Opium</nombre>
+            <referencia>EF9012</referencia>
+            <precio>69.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Champú Moroccanoil hidratante</nombre>
+            <referencia>GH3456</referencia>
+            <precio>20.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>069</num_pedido>
+        <fecha_compra>2022-09-28</fecha_compra>
+        <fecha_entrega>2022-09-02</fecha_entrega>
+        <total_factura>67.85</total_factura>
+        <cliente>
+          <nombre>Estrella</nombre>
+          <apellidos>Carrasco Ruiz</apellidos>
+          <telefono>661223344</telefono>
+          <direccion>
+            <calle>Calle de la Muralla, 10</calle>
+            <ciudad>Salamanca</ciudad>
+            <codigo_postal>37008</codigo_postal>
+            <provincia>Salamanca</provincia>
+          </direccion>
+          <correo>estrella.carrasco@yahoo.es</correo>
+          <fecha_inclusion>2022-07-25</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Barra de labios Dior Addict Lip Glow</nombre>
+            <referencia>IJ6789</referencia>
+            <precio>30.95</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante Origins GinZing</nombre>
+            <referencia>KL4321</referencia>
+            <precio>36.90</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>070</num_pedido>
+        <fecha_compra>2023-08-20</fecha_compra>
+        <fecha_entrega>2023-08-25</fecha_entrega>
+        <total_factura>92.90</total_factura>
+        <cliente>
+          <nombre>Valeria</nombre>
+          <apellidos>Rodríguez Aranda</apellidos>
+          <telefono>612334455</telefono>
+          <direccion>
+            <calle>Calle de la Palmera, 8</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41011</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>valeria.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2023-01-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Base de maquillaje Nars Natural Radiant Longwear</nombre>
+            <referencia>EF9102</referencia>
+            <precio>45.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Labial MAC Matte Lipstick</nombre>
+            <referencia>GH3435</referencia>
+            <precio>19.90</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos tercer trimestre 2022 -->
+
+    <trimestre trimestre="4">
+      <pedido>
+        <num_pedido>071</num_pedido>
+        <fecha_compra>2022-10-15</fecha_compra>
+        <fecha_entrega>2022-10-20</fecha_entrega>
+        <total_factura>72.60</total_factura>
+        <cliente>
+          <nombre>Amalia</nombre>
+          <apellidos>Rodríguez Ríos</apellidos>
+          <telefono>678909876</telefono>
+          <direccion>
+            <calle>Calle de la Paloma, 7</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>amalia.rodriguez@gmail.com</correo>
+          <fecha_inclusion>2022-06-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Flowerbomb</nombre>
+            <referencia>FG1234</referencia>
+            <precio>50.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios MAC</nombre>
+            <referencia>FG5678</referencia>
+            <precio>22.60</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>072</num_pedido>
+        <fecha_compra>2022-11-25</fecha_compra>
+        <fecha_entrega>2022-11-30</fecha_entrega>
+        <total_factura>121.00</total_factura>
+        <cliente>
+          <nombre>Alina</nombre>
+          <apellidos>Blanco García</apellidos>
+          <telefono>678765432</telefono>
+          <direccion>
+            <calle>Calle Mayoral, 25</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>alina.blanco@gmail.com</correo>
+          <fecha_inclusion>2021-11-05</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Set de brochas Zoeva</nombre>
+            <referencia>AB1234</referencia>
+            <precio>60.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Paleta de sombras de ojos Huda Beauty</nombre>
+            <referencia>CD5678</referencia>
+            <precio>61.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>073</num_pedido>
+        <fecha_compra>2022-12-10</fecha_compra>
+        <fecha_entrega>2022-12-12</fecha_entrega>
+        <total_factura>87.90</total_factura>
+        <cliente>
+          <nombre>Santiago</nombre>
+          <apellidos>Fernández Quijada</apellidos>
+          <telefono>672222111</telefono>
+          <direccion>
+            <calle>Calle Real, 18</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>santiago.fernandezq@ejemplo.com</correo>
+          <fecha_inclusion>2022-09-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante facial Clinique</nombre>
+            <referencia>AA3456</referencia>
+            <precio>29.95</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Miss Dior</nombre>
+            <referencia>BB6789</referencia>
+            <precio>28.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>074</num_pedido>
+        <fecha_compra>2022-10-14</fecha_compra>
+        <fecha_entrega>2022-10-18</fecha_entrega>
+        <total_factura>113.40</total_factura>
+        <cliente>
+          <nombre>Carla</nombre>
+          <apellidos>López Castellanos</apellidos>
+          <telefono>633111777</telefono>
+          <direccion>
+            <calle>Calle Gorrión, 15</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>carla.lopezc@ejemplo.com</correo>
+          <fecha_inclusion>2022-09-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de coloretes NARS</nombre>
+            <referencia>CC2345</referencia>
+            <precio>42.00</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Máscara de pestañas YSL</nombre>
+            <referencia>DD7890</referencia>
+            <precio>20.70</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>075</num_pedido>
+        <fecha_compra>2022-12-05</fecha_compra>
+        <fecha_entrega>2022-12-10</fecha_entrega>
+        <total_factura>78.90</total_factura>
+        <cliente>
+          <nombre>Isidora</nombre>
+          <apellidos>Muñoz Soto</apellidos>
+          <telefono>679223344</telefono>
+          <direccion>
+            <calle>Calle San Juan, 5</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41010</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>isidora.muñoz@gmail.com</correo>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Máscara de pestañas Diorshow Iconic Overcurl</nombre>
+            <referencia>EF1234</referencia>
+            <precio>32.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Crema hidratante Drunk Elephant</nombre>
+            <referencia>GH5678</referencia>
+            <precio>23.70</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>076</num_pedido>
+        <fecha_compra>2022-12-10</fecha_compra>
+        <fecha_entrega>2022-12-15</fecha_entrega>
+        <total_factura>75.90</total_factura>
+        <cliente>
+          <nombre>Yolanda</nombre>
+          <apellidos>Salazar Martínez</apellidos>
+          <telefono>678990011</telefono>
+          <direccion>
+            <calle>Calle Alcalá 23</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08001</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>yolanda.salazar@gmail.com</correo>
+          <fecha_inclusion>2022-02-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Alien de Mugler</nombre>
+            <referencia>AB4567</referencia>
+            <precio>62.50</precio>
+            <unidades>1</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios Rouge G de Guerlain</nombre>
+            <referencia>CD8901</referencia>
+            <precio>13.40</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>077</num_pedido>
+        <fecha_compra>2022-10-15</fecha_compra>
+        <fecha_entrega>2022-10-20</fecha_entrega>
+        <total_factura>205.50</total_factura>
+        <cliente>
+          <nombre>Marisol</nombre>
+          <apellidos>Caballero Díaz</apellidos>
+          <telefono>688998877</telefono>
+          <direccion>
+            <calle>Avda. del Cid 7</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46018</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>marisol.caballero@gmail.com</correo>
+          <fecha_inclusion>2022-01-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Crema hidratante Drunk Elephant</nombre>
+            <referencia>EF1234</referencia>
+            <precio>42.50</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Rimel Better Than Sex de Too Faced</nombre>
+            <referencia>GH5678</referencia>
+            <precio>24.95</precio>
+            <unidades>3</unidades>
+          </producto>
+          <producto>
+            <nombre>Barra de labios MAC</nombre>
+            <referencia>IJ9012</referencia>
+            <precio>19.99</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>078</num_pedido>
+        <fecha_compra>2022-11-25</fecha_compra>
+        <fecha_entrega>2022-11-29</fecha_entrega>
+        <total_factura>72.00</total_factura>
+        <cliente>
+          <nombre>Carla</nombre>
+          <apellidos>López Castellanos</apellidos>
+          <telefono>633111777</telefono>
+          <direccion>
+            <calle>Calle Gorrión, 15</calle>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46001</codigo_postal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correo>carla.lopezc@ejemplo.com</correo>
+          <fecha_inclusion>2022-09-10</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Perfume Aqua Universalis Maison Francis Kurkdjian</nombre>
+            <referencia>KL1234</referencia>
+            <precio>40.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>079</num_pedido>
+        <fecha_compra>2022-05-15</fecha_compra>
+        <fecha_entrega>2022-05-20</fecha_entrega>
+        <total_factura>182.90</total_factura>
+        <cliente>
+          <nombre>Azucena</nombre>
+          <apellidos>Ruíz Pineda</apellidos>
+          <telefono>691998877</telefono>
+          <direccion>
+            <calle>Calle de las Camelias 17</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigo_postal>08032</codigo_postal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correo>azucena.ruiz@gmail.com</correo>
+          <fecha_inclusion>2022-01-01</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Barra de labios Rouge Dior</nombre>
+            <referencia>EF2345</referencia>
+            <precio>37.50</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Sombra de ojos en crema Chanel</nombre>
+            <referencia>GH6789</referencia>
+            <precio>29.95</precio>
+            <unidades>2</unidades>
+          </producto>
+          <producto>
+            <nombre>Perfume Chanel nº5</nombre>
+            <referencia>IJ3456</referencia>
+            <precio>70.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </pedido>
+
+      <pedido>
+        <num_pedido>080</num_pedido>
+        <fecha_compra>2022-12-02</fecha_compra>
+        <fecha_entrega>2022-12-07</fecha_entrega>
+        <total_factura>245.00</total_factura>
+        <cliente>
+          <nombre>Cristina</nombre>
+          <apellidos>Rodríguez Sánchez</apellidos>
+          <telefono>666112233</telefono>
+          <direccion>
+            <calle>Calle del Jardín Secreto, 8</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigo_postal>41001</codigo_postal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correo>cristina.rodriguez@hotmail.com</correo>
+          <fecha_inclusion>2021-05-09</fecha_inclusion>
+        </cliente>
+        <productos>
+          <producto>
+            <nombre>Paleta de sombras de ojos Morphe</nombre>
+            <referencia>KL9012</referencia>
+            <precio>25.00</precio>
+            <unidades>3</unidades>
+          </producto>
+        </productos>
+      </pedido>
+    </trimestre>
+    <!-- Fin pedidos cuarto trimestre 2022 -->
+  </year>
+  <!-- Fin del año 2022 -->
+</pedidos_sephora>

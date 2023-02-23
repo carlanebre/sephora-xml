@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sephora Pedidos</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Custom styles for this template -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilos/custom.css">
+  </head>
+
+  <body id="custom">
+    <div class="header-custom">
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="link-logo"><img src="img/logo.png" class="logo"/></a></li>
+            <li><a href="index.html" class="nav-link px-2 link-dark">Pedidos</a></li>
+            <li><a href="clientes.html" class="nav-link px-2 link-dark">Clientes</a></li>
+            <li><a href="facturas.html" class="nav-link px-2 link-dark">Facturas</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Trimestres
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="trimestre1.html">Trimeste 1 - 2021</a></li>
+                <li><a class="dropdown-item" href="trimestre2.html">Trimeste 4 - 2022</a></li>
+              </ul>
+            </li><!--end of nav-item dropdown-->
+          </ul>
+        </header>
+      </div>
+    </div><!--end of header-custom-->
+
+    <div class="container container-custom">     
+      <div class="flexbox">
+        <div class="p-5 mb-4 bg-light rounded-3 hero-img" style="background-image: url('img/makeup4.jpg');">
+            <div class="container-fluid py-5 hero-index">
+              <h1 class="display-5 fw-bold">Consultar facturas</h1>
+              <p class="col-md-8 fs-4">Bienvenido a la página de consultas de compras de Sephora España.</p>
+            </div><!--end of container-fluid-->
+            <div class="hero-trasparent"></div>
+          </div><!--end of p-5 mb-4-->
+
+          <div class="flex-shrink-0 p-3 bg-white nav-bar">
+            <div href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+              <span class="fs-5 fw-semibold">Navegación</span>
+            </div>
+
+            <ul class="list-unstyled ps-0">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="index.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Tabla pedidos</a></li>
+                <li><a href="clientes.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Tabla clientes</a></li>
+                <li><a href="facturas.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Facturas cliente</a></li>
+                <li><a href="trimestre1.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Trimestre 1 - 2021</a></li>
+                <li><a href="trimestre2.html" class="nav-link-custom link-dark d-inline-flex text-decoration-none rounded">Trimestre 4 - 2022</a></li>
+              </ul>
+              <li class="border-top my-3"></li>
+            </ul><!--end of list-unstyled-->
+          </div><!--end of nav-bar-->
+      </div><!--end of flexbox-->
+
+      <div class="main">
+        <h3>Consultar facturas de pedido</h3>
+
+        <form class="form-facturas">
+          <label for="idnumber">Introduce el número de pedido:</label>
+          <input type="number" id="idnumber" name="idnumber" min="0">
+          <button type="submit">Consultar</button>
+        </form>
+
+        <h3 class="title-small">Factura de pedido</h3>
+
+        <table id="resultados" class="table">
+          <thead>
+              <tr>
+                  <th>ID Pedido</th>
+                  <th>Nombre de Cliente</th>
+                  <th>Fecha de Compra</th>
+                  <th>Fecha de Entrega</th>
+                  <th>Total Factura</th>
+                  <th>Ciudad</th>
+                  <th>Correo</th>
+              </tr>
+          </thead>
+          <tbody id="resultados">
+            <tr>
+              <td><span id="num_pedido"></td>
+              <td><span id="nombre"></td>
+              <td><span id="fecha_compra"></td>
+              <td><span id="fecha_entrega"></td>
+              <td><span id="total_factura"></span> €</td>
+              <td><span id="ciudad"></td>
+              <td><span id="correo"></td>
+          </tr>
+          </tbody>
+      </table>
+
+        <!-- <div id="resultados" class="table-pedido">
+          <p>Número de pedido: <span id="num_pedido"></span></p>
+          <p>Fecha de compra: <span id="fecha_compra"></span></p>
+          <p>Fecha de entrega: <span id="fecha_entrega"></span></p>
+          <p>Total de factura: <span id="total_factura"></span></p>
+          <p>Nombre del cliente: <span id="nombre"></span></p>
+        </div> -->
+        <script>
+          const xhr = new XMLHttpRequest();
+          xhr.open("GET", "xml/pedidos_sephora.xml", true);
+        
+          xhr.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+              const xmlDoc = this.responseXML;
+              const numberSpan = document.querySelector("#idnumber");
+              const pedido = xmlDoc.getElementsByTagName("pedido");
+              numberSpan.max = pedido.length;
+        
+              const form = document.querySelector("form");
+              form.addEventListener("submit", function(event) {
+                event.preventDefault();
+                const idNumber = parseInt(document.querySelector("#idnumber").value);
+                if (idNumber === 0) {
+                  // Si el número introducido es 0, no hacemos nada
+                  return;
+                }
+                const pedidos = xmlDoc.getElementsByTagName("pedido");
+        
+                // Restamos 1 al número introducido para buscar el pedido correspondiente
+                const pedido = pedidos[idNumber - 1];
+                const num_pedido = pedido.getElementsByTagName("num_pedido")[0].childNodes[0].nodeValue;
+                const fecha_compra = pedido.getElementsByTagName("fecha_compra")[0].childNodes[0].nodeValue;
+                const fecha_entrega = pedido.getElementsByTagName("fecha_entrega")[0].childNodes[0].nodeValue;
+                const total_factura = pedido.getElementsByTagName("total_factura")[0].childNodes[0].nodeValue;
+                const nombre = pedido.getElementsByTagName("nombre")[0].childNodes[0].nodeValue + " " + pedido.getElementsByTagName("apellidos")[0].childNodes[0].nodeValue;
+                const ciudad = pedido.getElementsByTagName("ciudad")[0].childNodes[0].nodeValue;
+                const correo = pedido.getElementsByTagName("correo")[0].childNodes[0].nodeValue;
+        
+                document.querySelector("#num_pedido").innerHTML = num_pedido;
+                document.querySelector("#fecha_compra").innerHTML = fecha_compra;
+                document.querySelector("#fecha_entrega").innerHTML = fecha_entrega;
+                document.querySelector("#total_factura").innerHTML = total_factura;
+                document.querySelector("#nombre").innerHTML = nombre;
+                document.querySelector("#ciudad").innerHTML = ciudad;
+                document.querySelector("#correo").innerHTML = correo;
+              });
+            }
+          };
+        
+          xhr.send();
+        </script>
+        
+      </div><!--end of main-->
+    
+      <footer class="py-3 my-4">
+        <div class="nav justify-content-center border-bottom pb-3 mb-3"></div>
+        <p class="text-center text-muted">&copy; 2023 Sephora España</p>
+      </footer>
+    </div><!--end of container-->
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
