@@ -21,10 +21,11 @@
 <!ELEMENT fecha_inclusion (#PCDATA)>
 <!ELEMENT productos (producto+)>
 <!ELEMENT producto (nombre, referencia, precio, unidades)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
 
 <!-- Definición de los atributos -->
 <!ATTLIST year year CDATA #REQUIRED>
 <!ATTLIST trimestre trimestre CDATA #REQUIRED>
-<!ATTLIST referencia CDATA #REQUIRED>
-<!ATTLIST precio CDATA #REQUIRED>
-<!ATTLIST unidades CDATA #REQUIRED>
