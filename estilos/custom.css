@@ -188,3 +188,11 @@ BARRA LATERAL
 .scrollarea {
   overflow-y: auto;
 }
+
+.dropdown-item-custom:hover {
+  background-color: #FFD5EC;
+}
+
+.dropdown-item-custom:active {
+  background-color: #F373B9;
+}
