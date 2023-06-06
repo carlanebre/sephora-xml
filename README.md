@@ -1,4 +1,4 @@
-# sephora simulación
+# Sephora
 
 - Acceso a datos XML mediante fetch.
 - El proyecto consiste en un sitio web que muestra la información del archivo XML.
